@@ -9,18 +9,19 @@ Configuración básica para empezar a hacer una kata o aprender a hacer tests en
 # Configuración específica por lenguaje
 
 ## PHP
-1. Instalar [composer](https://getcomposer.org/) `curl -sS https://getcomposer.org/installer | php`
-2. `composer install` (estando en la carpeta php)
-3. `./vendor/bin/phpunit`
+1. `make` (estando en la carpeta php)
+2. `make docker-build` (una vez)
+3. `make docker-test` (para ejecutar los tests)
 
 ## Javascript
-1. Instalar [Node](http://nodejs.org/)
-2. `npm install` (Estando en la carpeta javascript)
-3. `npm test`
+1. `make`
 
 ## Java
 1. Instalar las dependencias y tests con Maven [mvn test]
 2. Ejecutar los tests con el IDE
+
+## Python
+1. `make`
 
 # Documentación
 ## Javascript
